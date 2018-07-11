@@ -1,0 +1,123 @@
+@font-face {
+	src: url('../font/robotoslab-light.ttf');
+	font-family: 'robotoslab-light';
+}
+@font-face {
+	src: url('../font/taken.otf');
+	font-family: 'taken';
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	color: #fff;
+	transition: ease-in-out 0.2s;
+}
+
+a:hover {
+	color: #29BBE3;
+}
+
+body {
+	background-color: #222;
+	color: #fff;
+	font-family: 'robotoslab-light';
+}
+
+#page {
+	border: 0px solid blue;
+	width: 500px;
+	display: block;
+	margin: 0 auto;
+	padding: 0 20px;
+}
+
+#header {
+	padding: 20px 0 40px;
+}
+
+#title {
+	font-family: 'taken';
+	font-size: 6em;
+	text-align: center;
+}
+
+#main {
+	width: 100%;
+	margin-bottom: 50px;
+	font-size: 18px;
+}
+
+hr {
+	border: 0;
+	height: 1px;
+	background-color: rgba(255,255,255,0.7);
+	margin: 30px 0;
+}
+
+.name {
+	font-size: 27px;
+	padding-bottom: 15px;
+	text-decoration: underline;
+}
+
+.title {
+	padding-bottom: 10px;
+}
+
+.image {
+	overflow: hidden;
+	border-radius: 5px;
+	border: 1px solid rgba(255,255,255,0.3);
+}
+
+img {
+	width: 100%;
+	box-sizing: border-box;
+	transition: ease-in-out 0.3s;
+	display: block;
+}
+
+img:hover {
+	transform: scale(1.1);
+}
+
+.more {
+	text-align: center;
+}
+
+#footer {
+	text-align: center;
+	font-size: 12px;
+	padding-bottom: 20px;
+	opacity: 0.3;
+}
+
+
+.help .part {
+	padding: 20px;
+}
+
+.help .topic {
+	font-size: 22px;
+	padding-bottom: 10px;
+	text-decoration: underline;
+}
+
+.help .content {
+	text-align: justify;
+}
+
+.help ol {
+	padding-left: 20px;
+}
+
+
+@media screen and (max-width: 540px) {
+	#page {
+		width: auto;
+	}
+}
