@@ -58,6 +58,10 @@ hr {
 	margin: 30px 0;
 }
 
+.help {
+	padding-bottom: 40px;
+}
+
 .name {
 	font-size: 27px;
 	padding-bottom: 15px;
@@ -111,8 +115,13 @@ img:hover {
 	text-align: justify;
 }
 
-.help ol {
+.help ol,
+.help ul {
 	padding-left: 20px;
+}
+
+.help .info {
+	padding-top: 10px;
 }
 
 
